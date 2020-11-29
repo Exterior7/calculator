@@ -5,6 +5,7 @@
 .flex-container > div {
     margin: 0.1rem;
     padding:0.1rem;
+   
     
 }
 
@@ -13,6 +14,7 @@
     background-color: rgb(238, 236, 236);
     border: solid;
     border-color: rgb(221, 221, 221);
+    
 }
 
 .btn-specialStyle {
@@ -26,11 +28,12 @@
     background-color: rgb(185, 185, 185);
     border: solid;
     border-color: rgb(221, 221, 221);
+    color: rgb(83, 83, 83);
 }
 
 .btn--blue {
     background-color: rgb(40, 67, 224);
-    color: rgb(255, 255, 255);
+    color: rgb(165, 165, 165);
     border: solid;
     border-color: rgb(221, 221, 221);
      
@@ -50,4 +53,9 @@
     border-color: rgb(221, 221, 221);
     width: min-content;
     padding: 0.3rem;
+    
+}
+
+.btn__font--color {
+    color: rgb(165, 165, 165);
 }
