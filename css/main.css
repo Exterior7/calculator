@@ -35,6 +35,7 @@ body {
 input {
     display: block;
     height: 2rem;
+    width: 5rem;
     line-height: 2rem;
     margin: .25rem;
 
@@ -54,10 +55,22 @@ input {
 }
 
 
+.btn--blue {
+    background-color: rgb(40, 67, 224);
+    color: rgb(165, 165, 165);
+    border: solid;
+    border-color: rgb(221, 221, 221);
+     
+}
 
 
-
-
+/* .btn--dark {
+    background-color: rgb(157, 156, 156);
+    border: solid;
+    border-color: rgb(221, 221, 221);
+    color: rgb(83, 83, 83);
+    
+} */
 
 
 
@@ -81,20 +94,8 @@ input {
     border-color: rgb(221, 221, 221);
 }
 
-.btn--dark {
-    background-color: rgb(185, 185, 185);
-    border: solid;
-    border-color: rgb(221, 221, 221);
-    color: rgb(83, 83, 83);
-}
 
-.btn--blue {
-    background-color: rgb(40, 67, 224);
-    color: rgb(165, 165, 165);
-    border: solid;
-    border-color: rgb(221, 221, 221);
-     
-}
+
 
 
 
