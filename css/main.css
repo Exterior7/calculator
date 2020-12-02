@@ -1,5 +1,68 @@
-.flex-container {
+html {
+    font-size: 16 px;
+}
+
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
     display: flex;
+   
+}
+
+
+
+.column {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+}
+
+.main-container {
+    border: solid;
+    border-color: rgb(221, 221, 221);
+    width: min-content;
+    padding: 0.3rem;
+}
+
+
+
+input {
+    display: block;
+    height: 2rem;
+    line-height: 2rem;
+    margin: .25rem;
+
+}
+
+.tall {
+    flex-grow: 1;
+}
+
+
+
+.textview {
+    width: 24.6rem;
+    margin-left: 0.2rem;
+    border: solid;
+    border-color: rgb(221, 221, 221);
+}
+
+
+
+
+
+
+
+
+
+/* .flex-container {
+    display: inline-flex;
 }
 
 .flex-container > div {
@@ -9,13 +72,7 @@
     
 }
 
-.btn-style {
-    width: 30px;
-    background-color: rgb(238, 236, 236);
-    border: solid;
-    border-color: rgb(221, 221, 221);
-    
-}
+
 
 .btn-specialStyle {
     
@@ -41,12 +98,7 @@
 
 
 
-.textview {
-    width: 8.3rem;
-    margin-left: 0.2rem;
-    border: solid;
-    border-color: rgb(221, 221, 221);
-}
+
 
 .container {
     border: solid;
@@ -58,4 +110,4 @@
 
 .btn__font--color {
     color: rgb(165, 165, 165);
-}
+} */
